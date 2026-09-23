@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Nova — Tu proyecto digital</title>
+    <meta
+      name="description"
+      content="Una landing page moderna creada con HTML, CSS y JavaScript."
+    />
+
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+
+  <body>
+    <!-- Navegación -->
+    <header class="navbar">
+      <a href="#" class="logo">NOVA</a>
+
+      <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <button id="themeButton" class="theme-button">🌙</button>
+    </header>
+
+    <!-- Hero -->
+    <main>
+      <section id="inicio" class="hero">
+        <div class="hero-content">
+          <span class="badge"> 🚀 Tecnología del futuro </span>
+
+          <h1>
+            Construye algo
+            <span>increíble.</span>
+          </h1>
+
+          <p>Una página web moderna, rápida y preparada para crecer contigo.</p>
+
+          <div class="hero-buttons">
+            <a href="#servicios" class="button primary"> Empezar </a>
+
+            <a href="#contacto" class="button secondary"> Contactar </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Servicios -->
+      <section id="servicios" class="services">
+        <div class="section-title">
+          <span>¿Qué hacemos?</span>
+          <h2>Todo lo que necesitas</h2>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card-icon">⚡</div>
+
+            <h3>Rápido</h3>
+
+            <p>
+              Una experiencia rápida y optimizada para cualquier dispositivo.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">🎨</div>
+
+            <h3>Diseño moderno</h3>
+
+            <p>Interfaces limpias y atractivas pensadas para tus usuarios.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">🔒</div>
+
+            <h3>Seguro</h3>
+
+            <p>
+              Utilizamos tecnologías modernas para mantener tu proyecto
+              protegido.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contacto -->
+      <section id="contacto" class="contact">
+        <div class="contact-box">
+          <span>¿Tienes un proyecto?</span>
+
+          <h2>Hagamos algo increíble.</h2>
+
+          <p>Escríbeme y hablamos sobre tu idea.</p>
+
+          <button id="contactButton" class="button primary">Contactar</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>© <span id="year"></span> Nova. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
